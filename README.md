@@ -8,4 +8,5 @@
 
 ### Live link:
 
-### Hosted in firebase: [awesomeChef](https://awesomechef-1f6a8.web.app/)
+### Hosted on firebase: [awesomeChef-client](https://awesomechef-1f6a8.web.app/)
+### Hosted on vercel: [awesomeChef-server](https://github.com/rajibrahman74/awesome-chef-server)
