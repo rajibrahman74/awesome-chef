@@ -8,4 +8,4 @@
 
 ### Live link:
 
-### Hosted in firebase-deployment: [awesomeChef](https://awesomechef-1f6a8.web.app/)
+### Hosted in firebase: [awesomeChef](https://awesomechef-1f6a8.web.app/)
