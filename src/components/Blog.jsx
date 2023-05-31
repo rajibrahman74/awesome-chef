@@ -21,15 +21,18 @@ const Blog = () => {
   return (
     <>
       <div>
-        <div className="p-12 text-center">
+        <div className="pt-20 pb-36 px-12 text-center">
+        <h1 className="py-5 md:text-8xl text-4xl font-sans font-bold">
+           Blog 
+          </h1>
           <h1 className="py-12 text-4xl font-sans font-bold">
-            Here are the 4 questions answer!
+            Here are the 4 Question/Answer!
           </h1>
           <div
             tabIndex={0}
             className="mx-auto collapse collapse-arrow border border-base-300 bg-base-100 rounded-box sm:w-1/2 lg:w-2/3 my-8"
           >
-            <div className="collapse-title text-xl font-medium bg-success">
+            <div className="collapse-title text-xl font-medium bg-[#ededee]">
               1.Tell us the differences between uncontrolled and controlled
               components?
             </div>
@@ -53,7 +56,7 @@ const Blog = () => {
             tabIndex={0}
             className="mx-auto collapse collapse-arrow border border-base-300 bg-base-100 rounded-box sm:w-1/2 lg:w-2/3 my-5"
           >
-            <div className="collapse-title text-xl font-medium bg-success">
+            <div className="collapse-title text-xl font-medium bg-[#ededee]">
               2.How to validate React props using PropTypes?
             </div>
             <div className="collapse-content text-sm sm:text-base ">
@@ -72,7 +75,7 @@ const Blog = () => {
             tabIndex={0}
             className="mx-auto collapse collapse-arrow border border-base-300 bg-base-100 rounded-box sm:w-1/2 lg:w-2/3 my-5"
           >
-            <div className="collapse-title text-xl font-medium bg-success">
+            <div className="collapse-title text-xl font-medium bg-[#ededee]">
               3.Tell us the difference between nodejs and express js.?
             </div>
             <div className="collapse-content text-sm sm:text-base ">
@@ -101,7 +104,7 @@ const Blog = () => {
             tabIndex={0}
             className="mx-auto collapse collapse-arrow border border-base-300 bg-base-100 rounded-box sm:w-1/2 lg:w-2/3 my-5"
           >
-            <div className="collapse-title text-xl font-medium bg-success">
+            <div className="collapse-title text-xl font-medium bg-[#ededee]">
               4.What is a custom hook, and why will you create a custom hook??
             </div>
             <div className="collapse-content text-sm sm:text-base ">
@@ -124,16 +127,20 @@ const Blog = () => {
       </div>
       
       {/* pdf generator */}
-      <div className="text-center">
+      <div className="text-center flex flex-col justify-center items-center ">
         <h1 className="text-2xl font-bold mb-5">
           Our Receipie formula
         </h1>
+        <div className="bg-success w-[12rem] h-[10rem] items-center justify-center flex flex-col text-center rounded-[2rem]">
+          <DocumentTextIcon className="w-20 text-white" /> 
         <button
-          className="bg-success text-white py-5 px-10 justify-center rounded"
+          className="text-white py-2 px-5 justify-center text-lg"
           onClick={generatePDF}
         >
-          <DocumentTextIcon className="text-4xl ml-8 mb-4" /> Download PDF
+          Download PDF
         </button>
+        </div>
+      
       </div>
       {/* end pdf generator */}
     </>

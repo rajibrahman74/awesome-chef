@@ -9,31 +9,30 @@ const Chef = ({ chef }) => {
   const { id, picture, name, years_experience, num_recipes, likes } = chef;
   return (
     <div className="mx-auto">
-      <div className="card shadow-lg pt-7 max-w-[375px] h-700 mx-auto">
+      <div className="text-gray-600 card shadow-lg max-w-[384px] h-500 mx-auto bg-white border">
         <figure style={{ height: "300px" }}>
           <LazyLoad>
             <img
               src={picture}
               alt="Chef"
               style={{
-                width: "450px",
+                width: "350px",
                 height: "100%",
-                borderRadius: "0.75rem",
               }}
               loading="lazy"
             />
           </LazyLoad>
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title font-bold">{name}</h2>
-          <span className="flex items-center font-semibold text-md gap">
-            <CalendarDaysIcon className="w-6 h-6 text-gray-500 mr-2" />
-            {years_experience} Years of experiences
+          <h2 className="card-title font-bold uppercase text-2xl">{name}</h2>
+          <span className="flex items-center font-semibold text-sm gap">
+            <CalendarDaysIcon className="w-6 h-6  mr-2" />
+            {years_experience} years of experience
           </span>
 
           <div className="flex items-center justify-center gap-12 py-2">
             <span className="flex items-center text-md font-semibold">
-              <HandThumbUpIcon className="w-6 h-6 text-gray-500 mr-2" />
+              <HandThumbUpIcon className="w-6 h-6  mr-2" />
               {likes}
             </span>
             <span className="flex items-center text-md font-semibold">
@@ -41,9 +40,9 @@ const Chef = ({ chef }) => {
               {num_recipes} of recipes.
             </span>
           </div>
-          <div className="card-actions">
+          <div className="card-actions w-[22rem] h-[2rem] bg-[#74e3b8] text-white justify-center items-center">
             <Link to={`/chef-details/${id}`}>
-              <button className="btn bg-success border-0 text-white font-bold">
+              <button className="border-0   font-bold">
                 View Recipes
               </button>
             </Link>

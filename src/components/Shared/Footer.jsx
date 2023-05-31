@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <section className="relative">
       {/* component */}
-      <div className="absolute top-0 flex items-end w-full bg-white">
-        <footer className="w-full px-4 mx-auto text-gray-700 bg-gray-100 body-font">
+      <div className="absolute top-0 flex items-end w-full bg-[#ededee] ">
+        <footer className="w-full mx-auto text-gray-700 bg-gray-100 body-font">
           <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
             <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
               <i className="text-xl font-extrabold">awesomeChef</i>
@@ -169,9 +169,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gray-300">
+          <div className="bg-[#10B981]">
             <div className="container px-5 py-4 mx-auto">
-              <p className="text-sm text-gray-700 capitalize xl:text-center">
+              <p className="text-sm text-white capitalize xl:text-center">
                 © 2023 All rights reserved awesomeChef
               </p>
             </div>
