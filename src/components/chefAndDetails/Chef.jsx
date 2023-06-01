@@ -40,9 +40,9 @@ const Chef = ({ chef }) => {
               {num_recipes} of recipes.
             </span>
           </div>
-          <div className="card-actions w-[22rem] h-[2rem] bg-[#74e3b8] text-white justify-center items-center">
+          <div className="card-actions w-[22rem] h-[2rem] bg-[#2f8161] text-white justify-center items-center">
             <Link to={`/chef-details/${id}`}>
-              <button className="border-0   font-bold">
+              <button className="border-0 font-bold hover:text-green-200 transition duration-300">
                 View Recipes
               </button>
             </Link>

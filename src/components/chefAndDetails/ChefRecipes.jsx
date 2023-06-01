@@ -18,36 +18,27 @@ const ChefRecipes = ({ recipe }) => {
   const rating = Math.round(recipe_rating);
 
   return (
-    <div className="max-w-7xl mx-auto px-4">
-      <div className="px-8 py-4 my-20 h-full shadow-lg">
-        <h1 className="text-2xl text-center font-bold">{recipe_name}</h1>
-        <div className="flex flex-col lg:flex-row items-center">
-          <div className="w-[50%]">
+    <div className="px-2 py-4">
+      <div className="py-4 md:h-[60rem] shadow-lg border-2 border-[#204d20] ">
+        <h1 className="text-2xl pb-4 text-center font-bold">{recipe_name}</h1>
+        <div className="flex flex-col items-center">
+          <div className="">
             <img
               src={recipe_image}
-              className="w-full h-full lg:max-w-sm rounded-lg mb-6 lg:mb-0 lg:mr-6"
+              className="w-[30rem] h-[20rem] rounded-lg mb-6 lg:mb-0 lg:mr-6"
             />
           </div>
-          <div className="w-[50%]">
-            <p className="py-6 text-lg">
+          <div className="px-8">
+            <p className="text-lg py-6">
               <strong>Ingredients:</strong> {ingredients}.
             </p>
-            <p className="py-6 text-lg">
+            <p className="text-lg py-3">
               <strong>Method:</strong> {method}.
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-around">
-          <button
-            className="btn bg-success border-0 text-white flex items-center"
-            disabled={favorite}
-            onClick={handleFavorite}
-          >
-            {favorite ? "Favorite" : "Add to favorites"}
-            <HeartIcon className="w-5 h-5 ml-1" />
-          </button>
-
-          <div className="flex mr-2 items-center py-8">
+        <div className="flex md:flex-row flex-col items-center justify-around">
+        <div className="flex mr-2 items-center py-8">
             {Array.from({ length: 5 }).map((_, index) => (
               <StarIcon
                 key={index}
@@ -59,6 +50,16 @@ const ChefRecipes = ({ recipe }) => {
             ))}
             <span className="font-semibold ml-3 text-slate-400">{recipe_rating}</span>
           </div>
+          <button
+            className="btn bg-success border-0 text-white flex items-center"
+            disabled={favorite}
+            onClick={handleFavorite}
+          >
+            {favorite ? "Favorite" : "Add to favorites"}
+            <HeartIcon className="w-5 h-5 ml-1" />
+          </button>
+
+          
         </div>
       </div>
       <ToastContainer />

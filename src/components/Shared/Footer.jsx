@@ -169,9 +169,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#10B981]">
+          <div className="bg-[#deecde]">
             <div className="container px-5 py-4 mx-auto">
-              <p className="text-sm text-white capitalize xl:text-center">
+              <p className="text-sm text-gray-600 capitalize xl:text-center">
                 © 2023 All rights reserved awesomeChef
               </p>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./Button.jsx";
 import heroImage from "../../public/images/heroImage.png";
 import { PhoneArrowUpRightIcon } from "@heroicons/react/24/solid";
 
@@ -16,10 +17,7 @@ const HeroSection = () => {
           emphasis on healthy, fresh ingredients.
         </p>
         <span>
-          <button className="border-2 border-[#10B981] text-white bg-success px-6 py-2.5 font-bold rounded-md flex items-center gap-2 hover:bg-transparent hover:text-gray-600">
-            <PhoneArrowUpRightIcon className="h-5 w-5" />
-            Contact Now
-          </button>
+         <Button text="Contact Now"/> 
         </span>
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center">
