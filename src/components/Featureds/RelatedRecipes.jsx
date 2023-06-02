@@ -9,9 +9,9 @@ const RelatedRecipes = () => {
         <p className="text-lg mt-1 mb-8">
           Check out our top-rated Thai dishes that you can easily make at home.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {/* Recipe Card 1 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="transition duration-500 hover:scale-110 bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-72 object-cover object-center"
               src="https://4.bp.blogspot.com/-xVGGJB-2Ymk/UUlP_eqdHsI/AAAAAAAALQ4/-wADEtPi2wE/s1600/10.jpg"
@@ -29,7 +29,7 @@ const RelatedRecipes = () => {
           </div>
 
           {/* Recipe Card 2 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="transition duration-500 hover:scale-110 bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-72 object-cover object-center"
               src="https://i1.wp.com/tarasmulticulturaltable.com/wp-content/uploads/2017/05/Mee-Goreng-Mamak-Malaysian-Fried-Mamak-Noodles-2-of-3-e1606612805281.jpg?fit=1300%2C865&ssl=1"
@@ -45,7 +45,7 @@ const RelatedRecipes = () => {
           </div>
 
           {/* Recipe Card 3 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="transition duration-500 hover:scale-110 bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               className="w-full h-72 object-cover object-center"
               src="https://i1.wp.com/www.spiritofindiapattaya.com/wp-content/uploads/2018/08/tom-yum-soup.jpg?fit=3000%2C2000&ssl=1"

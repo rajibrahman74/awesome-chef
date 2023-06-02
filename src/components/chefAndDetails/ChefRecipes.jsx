@@ -51,7 +51,7 @@ const ChefRecipes = ({ recipe }) => {
             <span className="font-semibold ml-3 text-slate-400">{recipe_rating}</span>
           </div>
           <button
-            className="btn bg-success border-0 text-white flex items-center"
+            className="transition duration-300 border-2 border-[#10B981] hover:bg-transparent hover:text-gray-600 rounded py-3 px-4 bg-success text-white flex items-center"
             disabled={favorite}
             onClick={handleFavorite}
           >

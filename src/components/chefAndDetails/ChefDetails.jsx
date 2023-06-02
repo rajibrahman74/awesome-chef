@@ -5,7 +5,7 @@ import { CalendarDaysIcon } from "@heroicons/react/24/solid";
 import ChefRecipes from "./ChefRecipes";
 import Recepies from "/icons/recepies.png";
 import LazyLoad from "react-lazy-load";
-
+import { Button } from "../Button";
 const ChefDetails = () => {
   const chef = useLoaderData();
   const {
@@ -45,18 +45,17 @@ const ChefDetails = () => {
                     <img className="w-6 h-6 mr-2" src={Recepies} alt="" />
                     {num_recipes} of recipes.
                   </span>
-                  <span className="flex items-center">
+                  <span className="flex items-center justify-center text-center">
                     <HandThumbUpIcon className="w-6 h-6 text-gray-500 mr-2" />
                     {likes}
                   </span>
+                  
                 </div>
-                <div className="text-center mt-4 mr-auto">
-                <Link to="/">
-                  <button className="btn bg-success border-0 font-bold px-20 text-white">
-                    Go to Home
-                  </button>
+                <Link to="/" className="flex  justify-center py-2 ">
+                 <Button text="Go Back"/>
                 </Link>
-              </div>
+                
+        
               </div>
               
             </div>
