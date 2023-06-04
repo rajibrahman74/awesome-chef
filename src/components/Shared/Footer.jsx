@@ -5,17 +5,17 @@ const Footer = () => {
   return (
     <section className="relative">
       {/* component */}
-      <div className="absolute top-0 flex items-end w-full bg-[#ededee] ">
+      <div className=" top-0 flex items-end w-full bg-[#ededee] ">
         <footer className="w-full mx-auto text-gray-700 bg-gray-100 body-font">
-          <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
-            <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
+          <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center justify-center lg:items-start md:flex-row md:flex-no-wrap">
+            <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left py-4">
               <i className="text-xl font-extrabold">awesomeChef</i>
               <p className="mt-2 text-sm text-gray-500">
                 Design, Code and Ship!
               </p>
               <div className="mt-4">
                 <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-700">
+                  <a className="text-gray-500 cursor-pointer hover:text-[#2f8161]">
                     <svg
                       fill="currentColor"
                       strokeLinecap="round"
@@ -27,7 +27,7 @@ const Footer = () => {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                     </svg>
                   </a>
-                  <a className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700">
+                  <a className="ml-3 text-gray-500 cursor-pointer hover:text-[#2f8161]">
                     <svg
                       fill="currentColor"
                       strokeLinecap="round"
@@ -39,7 +39,7 @@ const Footer = () => {
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                     </svg>
                   </a>
-                  <a className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700">
+                  <a className="ml-3 text-gray-500 cursor-pointer hover:text-[#2f8161]">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -53,7 +53,7 @@ const Footer = () => {
                       <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
                     </svg>
                   </a>
-                  <a className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700">
+                  <a className="ml-3 text-gray-500 cursor-pointer hover:text-[#2f8161]">
                     <svg
                       fill="currentColor"
                       stroke="currentColor"
@@ -171,7 +171,7 @@ const Footer = () => {
           </div>
           <div className="bg-[#deecde]">
             <div className="container px-5 py-4 mx-auto">
-              <p className="text-sm text-gray-600 capitalize xl:text-center">
+              <p className="text-sm text-gray-600 capitalize text-center">
                 © 2023 All rights reserved awesomeChef
               </p>
             </div>

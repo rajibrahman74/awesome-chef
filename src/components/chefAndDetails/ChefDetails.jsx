@@ -67,9 +67,9 @@ const ChefDetails = () => {
         <h3 className="lg:text-5xl text-4xl font-bold text-center mb-8 py-8">
           {name}'s most popular recipes!
         </h3>
-        <div className="mx-auto md:flex justify-center ">
+        <div className="mx-auto md:flex flex-wrap  justify-center ">
           {recipes.map((recipe) => (
-            <div className="ml-6 md:w-[30%] " key={id}>
+            <div className="mx-2 w-full lg:w-[30%]" key={id}>
               <ChefRecipes recipe={recipe} />
             </div>
           ))}

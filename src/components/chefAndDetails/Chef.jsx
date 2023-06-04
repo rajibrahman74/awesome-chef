@@ -8,8 +8,7 @@ import LazyLoad from "react-lazy-load";
 const Chef = ({ chef }) => {
   const { id, picture, name, years_experience, num_recipes, likes } = chef;
   return (
-    <div className="mx-auto">
-      <div className="text-gray-600 card shadow-lg max-w-[384px] h-500 mx-auto bg-white border">
+      <div className="overflow-hidden text-gray-600 card shadow-lg max-w-[384px] h-500 mx-auto bg-white border">
         <figure style={{ height: "300px" }}>
           <LazyLoad>
             <img
@@ -30,7 +29,7 @@ const Chef = ({ chef }) => {
             {years_experience} years of experience
           </span>
 
-          <div className="flex items-center justify-center gap-12 py-2">
+          <div className="flex sm:flex-row flex-col items-center justify-center gap-12 py-2">
             <span className="flex items-center text-md font-semibold">
               <HandThumbUpIcon className="w-6 h-6  mr-2" />
               {likes}
@@ -40,16 +39,15 @@ const Chef = ({ chef }) => {
               {num_recipes} of recipes.
             </span>
           </div>
-          <div className="card-actions w-[22rem] h-[2rem] bg-[#2f8161] text-white justify-center items-center">
+          <div className="card-actions  bg-[#2f8161] text-white justify-center items-center">
             <Link to={`/chef-details/${id}`}>
-              <button className="border-0 font-bold hover:text-green-200 transition duration-300">
+              <button className="border-0 px-4 py-2 font-bold hover:text-green-200 transition duration-300">
                 View Recipes
               </button>
             </Link>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

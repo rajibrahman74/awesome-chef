@@ -63,18 +63,10 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  activeClassName="active text-[#757575] font-semibold hover:text-success"
-                  to="/login"
+                  activeclassName="active text-[#757575] font-semibold hover:text-success"
+                  to="/contact"
                 >
-                  Login
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  activeClassName="active text-[#757575] font-semibold hover:text-success"
-                  to="/register"
-                >
-                  Register
+                  Contact
                 </NavLink>
               </li>
             </ul>
@@ -104,21 +96,13 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink
-                activeClassName="active text-[#757575] font-semibold hover:text-success"
-                to="/login"
-              >
-                Login
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                activeClassName="active text-[#757575] font-semibold hover:text-success"
-                to="/register"
-              >
-                Register
-              </NavLink>
-            </li>
+                <NavLink
+                  activeclassName="active text-[#757575] font-semibold hover:text-success"
+                  to="/contact"
+                >
+                  Contact
+                </NavLink>
+              </li>
           </ul>
         </div>
         <div>

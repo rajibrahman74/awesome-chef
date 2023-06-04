@@ -2,7 +2,7 @@ import React from "react";
 
 const RelatedRecipes = () => {
   return (
-    <div className="bg-[#ededee] text-gray-600">
+    <section className="bg-[#ededee] text-gray-600">
       <div className="flex flex-col items-center justify-center text-center py-14 w-5/6 mx-auto my-20">
         <h2 className="text-5xl font-bold mb-3">Related Recipes</h2>
         <hr className="h-1 w-[20rem]"/>
@@ -63,7 +63,7 @@ const RelatedRecipes = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

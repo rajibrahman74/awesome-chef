@@ -19,7 +19,7 @@ const ChefRecipes = ({ recipe }) => {
 
   return (
     <div className="px-2 py-4">
-      <div className="py-4 md:h-[60rem] shadow-lg border-2 border-[#204d20] ">
+      <div className="py-2 h-full md:h-[20rem] shadow-lg border-2 border-[#204d20] ">
         <h1 className="text-2xl pb-4 text-center font-bold">{recipe_name}</h1>
         <div className="flex flex-col items-center">
           <div className="">
@@ -28,7 +28,7 @@ const ChefRecipes = ({ recipe }) => {
               className="w-[30rem] h-[20rem] rounded-lg mb-6 lg:mb-0 lg:mr-6"
             />
           </div>
-          <div className="px-8">
+          <div className="px-3">
             <p className="text-lg py-6">
               <strong>Ingredients:</strong> {ingredients}.
             </p>
@@ -37,7 +37,7 @@ const ChefRecipes = ({ recipe }) => {
             </p>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col items-center justify-around">
+        <div className="flex md:flex-row flex-col items-center justify-around px-2">
         <div className="flex mr-2 items-center py-8">
             {Array.from({ length: 5 }).map((_, index) => (
               <StarIcon
@@ -58,8 +58,6 @@ const ChefRecipes = ({ recipe }) => {
             {favorite ? "Favorite" : "Add to favorites"}
             <HeartIcon className="w-5 h-5 ml-1" />
           </button>
-
-          
         </div>
       </div>
       <ToastContainer />

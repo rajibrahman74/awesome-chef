@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="mt-12 py-8">
+    <section className="mt-12 py-8 overflow-hidden">
       <div className="flex flex-col items-center justify-center py-8 text-center">
         <h2 className="text-5xl text-gray-800 font-bold mb-2 uppercase">
           What We Offer You
@@ -76,7 +76,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
