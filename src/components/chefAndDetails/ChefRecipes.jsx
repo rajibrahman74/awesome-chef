@@ -19,13 +19,13 @@ const ChefRecipes = ({ recipe }) => {
 
   return (
     <div className="px-2 py-4">
-      <div className="py-2 h-full xl:h-[57rem] lg:h-[65rem] shadow-lg border-2 border-[#204d20] ">
+      <div className="py-2 shadow-lg border-2 border-[#204d20] ">
         <h1 className="text-2xl pb-4 text-center font-bold">{recipe_name}</h1>
         <div className="flex flex-col items-center">
           <div className="">
             <img
               src={recipe_image}
-              className="w-[30rem] h-[20rem] rounded-lg mb-6 lg:mb-0 lg:mr-6"
+              className="w-full md:w-[30rem] h-[20rem] rounded-lg mb-6 lg:mb-0 "
             />
           </div>
           <div className="px-3">
@@ -37,7 +37,7 @@ const ChefRecipes = ({ recipe }) => {
             </p>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col items-center justify-around px-2">
+        <div className="flex flex-col md:flex-row items-center justify-around px-2">
         <div className="flex mr-2 items-center py-8">
             {Array.from({ length: 5 }).map((_, index) => (
               <StarIcon

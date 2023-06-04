@@ -7,7 +7,7 @@ const Button = (props) => {
 
     return (
 
-        <button className="transition duration-300 border-2 border-[#10B981] text-white bg-success px-8 py-2.5 font-bold rounded-md flex items-center gap-2 hover:bg-transparent hover:text-gray-600">{props.text}</button>
+        <button className="btn border-0 inline-flex items-center justify-center h-10 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-emerald-500 disabled:cursor-not-allowed disabled:borde">{props.text}</button>
 
     );
 

@@ -19,9 +19,9 @@ const Header = () => {
       });
   };
   return (
-    <header className="bg-gray-100 sticky top-0 z-10">
+    <header className="bg-gray-100 sticky top-0 z-10 ">
       <ToastContainer />
-      <nav className="navbar max-w-7xl mx-auto flex justify-between items-center py-4 px-4">
+      <nav className="navbar max-w-7xl mx-auto flex justify-between items-center py-4 ">
         <div className="">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -69,7 +69,9 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
+              
             </ul>
+            
           </div>
           <Link to="/">
             <h3 className="text-xl md:text-2xl text-[#1A1919] font-bold">
@@ -107,7 +109,7 @@ const Header = () => {
         </div>
         <div>
           {user ? (
-            <div className="flex items-center justify-center gap-6">
+            <div className="flex items-center justify-center gap-2">
               <img
                 title={user.displayName}
                 className="w-12 h-12 rounded-full"

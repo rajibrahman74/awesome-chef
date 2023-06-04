@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <section className="relative">
+    <section>
       {/* component */}
-      <div className=" top-0 flex items-end w-full bg-[#ededee] ">
+      <div className="flex items-end w-full bg-[#ededee] ">
         <footer className="w-full mx-auto text-gray-700 bg-gray-100 body-font">
           <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center justify-center lg:items-start md:flex-row md:flex-no-wrap">
             <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left py-4">
