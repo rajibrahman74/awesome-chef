@@ -19,26 +19,26 @@ const ChefRecipes = ({ recipe }) => {
 
   return (
     <div className="px-2 py-4">
-      <div className="py-2 shadow-lg border-2 border-[#204d20] ">
+      <div className="py-2 shadow-lg border-2 border-[#204d20] md:h-[67rem] xl:h-[60rem] ">
         <h1 className="text-2xl pb-4 text-center font-bold">{recipe_name}</h1>
-        <div className="flex flex-col items-center">
-          <div className="">
+        <div className="flex flex-col items-center ">
+          <div className="flex justify-center">
             <img
               src={recipe_image}
-              className="w-full md:w-[30rem] h-[20rem] rounded-lg mb-6 lg:mb-0 "
+              className="w-full md:w-[30rem] h-[20rem] object-cover rounded-lg mb-6 lg:mb-0 "
             />
           </div>
-          <div className="px-3">
-            <p className="text-lg py-6">
+          <div className="px-3 flex-grow">
+            <p className="text-lg py-5">
               <strong>Ingredients:</strong> {ingredients}.
             </p>
-            <p className="text-lg py-3">
+            <p className="text-lg">
               <strong>Method:</strong> {method}.
             </p>
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-around px-2">
-        <div className="flex mr-2 items-center py-8">
+        <div className="flex mr-2 items-center py-10">
             {Array.from({ length: 5 }).map((_, index) => (
               <StarIcon
                 key={index}
@@ -51,7 +51,7 @@ const ChefRecipes = ({ recipe }) => {
             <span className="font-semibold ml-3 text-slate-400">{recipe_rating}</span>
           </div>
           <button
-            className="transition duration-300 border-2 border-[#10B981] hover:bg-transparent hover:text-gray-600 rounded py-3 px-4 bg-success text-white flex items-center"
+            className="btn border-0 inline-flex items-center justify-center h-10 px-5 text-sm font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-emerald-500 disabled:cursor-not-allowed disabled:borde"
             disabled={favorite}
             onClick={handleFavorite}
           >

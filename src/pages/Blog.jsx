@@ -22,7 +22,7 @@ const Blog = () => {
     <>
       <div>
         <div className="pt-20 pb-36 px-12 text-center">
-        <h1 className="text-[#10b981] py-5 md:text-8xl text-4xl font-sans font-bold">
+        <h1 className="text-gray-600 py-5 md:text-8xl text-4xl font-sans font-bold">
            Blog 
           </h1>
           <h1 className="py-12 text-4xl font-sans font-bold">

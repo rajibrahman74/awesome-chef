@@ -1,10 +1,11 @@
 import React from "react";
+import { Button } from "../components/Button.jsx";
 
 const Contact = () => {
   return (
     <section className="items-center  py-20 md:px-4 px-2 overflow-hidden">
       <div className="flex flex-col items-center justify-center py-8 text-center">
-        <h2 className="text-4xl md:text-6xl text-[#10b981] font-bold mb-2 uppercase">
+        <h2 className="text-4xl md:text-6xl text-gray-600 font-bold mb-2 uppercase">
         Contact Us
         </h2>
         <hr className="h-1 w-[24rem] "/>
@@ -43,13 +44,8 @@ const Contact = () => {
                 placeholder="Message"
               />
             </div>
-            <div className="mb-6">
-              <button
-                type="submit"
-                className="w-full bg-success text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              >
-                Send Message
-              </button>
+            <div className="mb-6 justify-center flex flex-col">
+            <Button text="Contact Now" />
             </div>
           </form>
         </div>

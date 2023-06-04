@@ -22,7 +22,7 @@ const Testimonial = () => {
       >
         <SwiperSlide>
           <div className="bg-white p-24 rounded-lg shadow-lg">
-            <img src="https://m.timesofindia.com/photo/97028719/97028719.jpg" alt="Testimonial 1" className=" w-[5rem] h-[10rem] rounded-full mx-auto mb-6" />
+            <img src="https://blog.hubspot.com/hubfs/Customer-testimonial-page.jpg" alt="Testimonial 1" className="  w-36 h-40  rounded-full mx-auto mb-6" />
             <h3 className="text-2xl text-gray-800 font-bold mb-2">John Doe</h3>
             <p className="text-lg text-gray-600">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet vestibulum mauris ac rutrum. Proin pulvinar malesuada nisl."
@@ -31,7 +31,7 @@ const Testimonial = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="bg-white p-24 rounded-lg shadow-lg">
-            <img src="https://i.pinimg.com/736x/eb/dc/eb/ebdcebbeded7f600a24c366a37da4dfb.jpg" alt="Testimonial 2" className=" w-[5rem] h-[10rem] rounded-full mx-auto mb-6" />
+            <img src="https://photoheads.co.uk/wp-content/uploads/2020/05/headshot-with-client-testimonial.jpg" alt="Testimonial 2" className="  w-36 h-40  rounded-full mx-auto mb-6" />
             <h3 className="text-2xl text-gray-800 font-bold mb-2">Jane Smith</h3>
             <p className="text-lg text-gray-600">
               "Sed vel facilisis lectus. Mauris a arcu vitae leo iaculis lobortis. Suspendisse potenti. Fusce id gravida turpis, vitae volutpat arcu."
@@ -40,7 +40,7 @@ const Testimonial = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="bg-white  p-24 rounded-lg shadow-lg">
-            <img src="https://e0.pxfuel.com/wallpapers/546/11/desktop-wallpaper-jimin-bts-park-jimin-thumbnail.jpg" alt="Testimonial 3" className="w-[5rem] h-[10rem] rounded-full mx-auto mb-6" />
+            <img src="https://t3.ftcdn.net/jpg/04/60/91/88/360_F_460918802_XVCymFr7MoziFpnInbTDvrlblYhvAOi2.jpg" alt="Testimonial 3" className=" w-36 h-40  rounded-full mx-auto mb-6" />
             <h3 className="text-2xl text-gray-800 font-bold mb-2">Mike Johnson</h3>
             <p className="text-lg text-gray-600">
               "Quisque congue ligula at nunc congue, non lacinia tortor consequat. Mauris rutrum turpis et turpis scelerisque, at dictum enim pretium."
@@ -49,7 +49,7 @@ const Testimonial = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="bg-white  p-24 rounded-lg shadow-lg">
-            <img src="https://static.wikia.nocookie.net/the-bangtan-boys/images/4/44/The_Astronaut_Concept_Photo_%281%29.png/" alt="Testimonial 4" className=" w-[5rem] h-[10rem] rounded-full mx-auto mb-6" />
+            <img src="https://img.freepik.com/premium-photo/portrait-happy-man-wearing-glasses-looking-camera-indoors_709984-2264.jpg" alt="Testimonial 4" className=" w-36 h-40  rounded-full mx-auto mb-6" />
             <h3 className="text-2xl text-gray-800 font-bold mb-2">Sarah Williams</h3>
             <p className="text-lg text-gray-600">
               "Vivamus consectetur est vitae neque ultricies, non vestibulum nulla consequat. Sed ultricies mauris eget posuere fermentum."

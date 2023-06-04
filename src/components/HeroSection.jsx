@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 
 const HeroSection = () => {
   return (
-    <section className="max-w-[100rem] mx-auto py-[10rem] flex flex-col-reverse md:flex-row justify-center items-center gap-[70px] px-4 overflow-hidden">
+    <section className="max-w-[93rem] mx-auto py-[10rem] flex flex-col-reverse md:flex-row justify-center items-center gap-[70px] lg:px-4 overflow-hidden">
       <div className="flex flex-col gap-[30px] md:w-1/2 md:pl-[30px] xs:text-center">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
@@ -22,7 +22,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="text-[#757575] text-[17px] m-0 pt-5"
+          className="text-[#757575] text-[17px] m-0 pt-5 pl-1"
         >
           A Korean chef is a skilled culinary professional who specializes in
           the preparation and presentation of traditional Korean cuisine. Korean
