@@ -19,7 +19,7 @@ const ChefRecipes = ({ recipe }) => {
 
   return (
     <div className="px-2 py-4">
-      <div className="py-2 h-full md:h-[20rem] shadow-lg border-2 border-[#204d20] ">
+      <div className="py-2 h-full xl:h-[57rem] lg:h-[65rem] shadow-lg border-2 border-[#204d20] ">
         <h1 className="text-2xl pb-4 text-center font-bold">{recipe_name}</h1>
         <div className="flex flex-col items-center">
           <div className="">

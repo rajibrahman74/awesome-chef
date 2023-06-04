@@ -69,7 +69,7 @@ const ChefDetails = () => {
         </h3>
         <div className="mx-auto md:flex flex-wrap  justify-center ">
           {recipes.map((recipe) => (
-            <div className="mx-2 w-full lg:w-[30%]" key={id}>
+            <div className="mx-2 w-full lg:w-[40%]" key={id}>
               <ChefRecipes recipe={recipe} />
             </div>
           ))}
