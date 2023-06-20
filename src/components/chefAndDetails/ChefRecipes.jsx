@@ -18,7 +18,7 @@ const ChefRecipes = ({ recipe }) => {
   const rating = Math.round(recipe_rating);
 
   return (
-    <div className="px-2 py-4">
+    <div className="px-2 py-4 relative">
       <div className="py-2 shadow-lg border-2 border-[#204d20] md:h-[67rem] xl:h-[60rem] ">
         <h1 className="text-2xl pb-4 text-center font-bold">{recipe_name}</h1>
         <div className="flex flex-col items-center ">
@@ -37,7 +37,7 @@ const ChefRecipes = ({ recipe }) => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-around px-2">
+        <div className="absolute bottom-3 flex flex-col md:flex-row items-center justify-around px-2">
         <div className="flex mr-2 items-center py-10">
             {Array.from({ length: 5 }).map((_, index) => (
               <StarIcon
